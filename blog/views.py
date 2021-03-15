@@ -7,12 +7,14 @@ posts = [
     {
         'author': 'JK Rowling',
         'book': 'Harry Potter and the Philospher\'s Stone',
-        'rating': '9.8'
+        'description': 'Blog Post 1',
+        'date': '10th March 2021'
     },
     {
         'author': 'Stan Lee',
         'book': 'The Amazing Spiderman',
-        'rating': '9.6'
+        'description': 'Blog Post 2',
+        'date': '10th March 2021'
     }
 ]
 
