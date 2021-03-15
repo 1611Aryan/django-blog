@@ -9,3 +9,6 @@ class Post(models.Model):
     description = models.TextField()
     date = models.DateTimeField(default=timezone.now)
     author = models.ForeignKey(User, on_delete=CASCADE)
+
+    def __str__(self):
+        return self.book
